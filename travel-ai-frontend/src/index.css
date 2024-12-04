@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes thinking {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes celebrate {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.animate-thinking {
+  animation: thinking 1s infinite; /* Adjust duration as needed */
+}
+
+.animate-celebrate {
+  animation: celebrate 0.5s ease-in-out; /* Adjust duration as needed */
+}
+
+.scale-animation {
+  animation: scale 1s infinite alternate;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.info-card {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(34, 34, 34, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
