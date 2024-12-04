@@ -36,3 +36,14 @@ npm install
 
 # Start the development server
 npm run dev
+
+### backend 
+# Navigate to the backend directory
+cd travel-ai-backend
+
+# Install the required dependencies
+npm install
+
+# Start the backend server
+npm run dev
+
