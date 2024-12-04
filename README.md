@@ -14,15 +14,6 @@
 
 ---
 
-## Features
-
-- AI-powered personalized travel recommendations.
-- Integration with Google Maps for smooth navigation.
-- Real-time itinerary updates.
-- A social network feature for travelers to upload and share their journeys.
-
----
-
 ## Project Structure
 
 - **`travel-ai-frontend/`**: Contains the frontend code for the user interface.
