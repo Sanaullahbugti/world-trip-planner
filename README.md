@@ -37,8 +37,11 @@ npm install
 npm run dev
 To set up and run the frontend, use the following commands:
 # frontend env 
+# Google map key
 VITE_GOOGLE_MAPS_API_KEY=
+# Encyption key
 VITE_ENCRYPTION_KEY=
+# Base url of backend
 VITE_API_BASE_URL=
 
 ### backend 
