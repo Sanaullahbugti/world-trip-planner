@@ -23,11 +23,10 @@
 
 ## Installation and Setup
 
-### Frontend
 
 To set up and run the frontend, use the following commands:
 
-```bash
+
 # Navigate to the frontend directory
 cd travel-ai-frontend
 
@@ -36,6 +35,7 @@ npm install
 
 # Start the development server
 npm run dev
+To set up and run the frontend, use the following commands:
 
 ### backend 
 # Navigate to the backend directory
