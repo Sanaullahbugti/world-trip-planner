@@ -36,6 +36,10 @@ npm install
 # Start the development server
 npm run dev
 To set up and run the frontend, use the following commands:
+# frontend env 
+VITE_GOOGLE_MAPS_API_KEY=
+VITE_ENCRYPTION_KEY=
+VITE_API_BASE_URL=
 
 ### backend 
 # Navigate to the backend directory
@@ -46,4 +50,22 @@ npm install
 
 # Start the backend server
 npm run dev
+
+# Backend env 
+# Server Configuration
+PORT=
+NODE_ENV=
+
+# Database Configuration
+MONGO_URI=
+
+# Authentication Configuration
+JWT_SECRET=
+
+# Encryption Configuration
+ENCRYPTION_KEY=
+
+# Gemini API Configuration
+GEMINI_API_KEY=
+GEMINI_API_URL=
 
